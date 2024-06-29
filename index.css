@@ -1,0 +1,822 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sec1{
+
+}
+
+
+.sec1 img{
+    width: 70%;
+}
+
+.list{
+    list-style: none;
+}
+
+
+.col1{
+    background-color: rgb(248, 243, 243);
+    padding: 10px 20px;
+    border-left: 5px solid aquamarine;
+}
+
+.col2{
+    padding: 10px 20px;
+}
+
+
+.col2:hover{
+    background-color: rgb(248, 243, 243);
+    border-left: 5px solid rgb(216, 214, 214);
+    cursor: pointer;
+
+
+
+}
+
+
+
+.col3{
+    padding: 10px 20px;
+
+}
+
+
+.col3:hover{
+    background-color: rgb(248, 243, 243);
+    border-left: 5px solid rgb(216, 214, 214);
+    cursor: pointer;
+
+
+
+}
+
+
+
+.col4{
+    padding: 10px 20px;
+
+}
+
+
+.col4:hover{
+    background-color: rgb(248, 243, 243);
+    border-left: 5px solid rgb(216, 214, 214);
+    cursor: pointer;
+
+
+}
+
+.box1{
+    position: relative;
+    overflow: hidden;
+    transition: .4s all linear;
+}
+
+
+
+
+.line1{
+
+    border:2px solid red;
+    position: absolute;
+    top:100%;
+    width: 100%;
+}
+
+.box1:hover .line1{
+    top:90%;
+   
+}
+
+.box1:hover{
+    transform: translateY(-7px);
+}
+
+
+
+.box2{
+    position: relative;
+    overflow: hidden;
+    transition: .4s all linear;
+}
+
+
+
+
+.line2{
+
+    border:2px solid aqua;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    
+}
+
+.box2:hover .line2{
+    top:90%;
+   
+}
+
+.box2:hover{
+    transform: translateY(-7px);
+}
+
+
+
+
+.box3{
+    position: relative;
+    overflow: hidden;
+    transition: .4s all linear;
+}
+
+
+
+
+.line3{
+
+    border:2px solid green;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    
+}
+
+.box3:hover .line3{
+    top:90%;
+   
+}
+
+.box3:hover{
+    transform: translateY(-7px);
+}
+
+
+.box4{
+    position: relative;
+    overflow: hidden;
+    transition: .4s all linear;
+}
+
+
+
+
+.line4{
+
+    border:2px solid blue;
+    position: absolute;
+    top:100%;
+    width: 100%;
+    
+}
+
+.box4:hover .line4{
+    top:90%;
+   
+}
+
+.box4:hover{
+    transform: translateY(-7px);
+}
+
+
+
+
+.sec5Box1{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content1{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box1:hover .sec5-Content1{
+    scale:1   
+
+
+
+
+   
+}
+
+
+
+.sec5Box2{
+    position: relative;
+
+    overflow: hidden;
+   
+    
+
+}
+
+
+
+.sec5-Content2{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box2:hover .sec5-Content2{
+    scale:1
+
+   
+
+
+
+   
+}
+
+
+.sec5Box3{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content3{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box3:hover .sec5-Content3{
+    scale:1;
+   
+
+
+
+   
+}
+
+
+
+
+.sec5Box4{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content4{
+    position: absolute;
+    top:0;
+    scale: 0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box4:hover .sec5-Content4{
+    scale: 1;
+   
+
+
+
+   
+}
+
+
+.sec5Box5{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content5{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box5:hover .sec5-Content5{
+scale:1   
+
+
+
+   
+}
+
+
+.sec5Box6{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content6{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box6:hover .sec5-Content6{
+    scale:1;
+   
+
+
+
+   
+}
+
+
+.sec5Box7{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content7{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box7:hover .sec5-Content7{
+    scale:1;
+   
+
+
+
+   
+}
+    
+.sec5Box8{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content8{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box8:hover .sec5-Content8{
+    scale:1;
+   
+
+
+
+   
+}
+
+
+
+.sec5Box9{
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+
+
+.sec5-Content9{
+    position: absolute;
+    top:0;
+    scale:0;
+    background-color: rgba(243, 237, 237, 0.685);
+    padding: 100px 160px;
+    margin-top: 48px;
+    transition: .5s all ease-in-out;
+
+    
+
+}
+
+
+.sec5Box9:hover .sec5-Content9{
+    scale:1;
+    
+   
+
+
+
+   
+}
+
+
+.sec6{
+
+    background-image: url("https://bootstrapmade.com/demo/templates/Scaffold/assets/img/cta-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+.sec8Box1{
+    /* border: 2px solid; */
+    margin-top: 70px;
+
+}
+
+
+
+.sec8Box1-2{
+    background-color: rgb(247, 244, 244);
+    padding: 5px 70px;
+    margin-top: 300px;
+    margin-left: 30px ;
+
+}
+
+
+
+.sec8Box1-3{
+    background-color: rgb(247, 244, 244);
+    padding: 10px 106px;
+    margin-top: 350px;
+    margin-left: 30px ;
+    transform: translateY(20px);
+   
+
+    opacity: 0;
+    transition: .2s all ease-in-out;
+
+
+}
+
+.sec8Box1:hover .sec8Box1-3{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sec8Box2{
+    /* border: 2px solid; */
+    margin-top: 70px;
+}
+
+
+
+.sec8Box2-2{
+    background-color: rgb(247, 244, 244);
+    padding: 5px 70px;
+    margin-top: 300px;
+    margin-left: 50px ;
+
+}
+
+
+
+.sec8Box2-3{
+    background-color: rgb(247, 244, 244);
+    padding: 10px 88.5px;
+    margin-top: 350px;
+    margin-left: 50px ;
+    transform: translateY(20px);
+
+   
+
+    opacity: 0;
+    transition: .2s all ease-in-out;
+
+
+}
+
+.sec8Box2:hover .sec8Box2-3{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+.sec8Box3{
+    /* border: 2px solid; */
+    margin-top: 70px;
+
+}
+
+
+
+.sec8Box3-2{
+    background-color: rgb(247, 244, 244);
+    padding: 5px 70px;
+    margin-top: 300px;
+    margin-left: 45px ;
+
+}
+
+
+
+.sec8Box3-3{
+    background-color: rgb(247, 244, 244);
+    padding: 10px 92px;
+    margin-top: 350px;
+    margin-left: 45px ;
+    transform: translateY(20px);
+
+   
+
+    opacity: 0;
+    transition: .2s all ease-in-out;
+
+
+}
+
+.sec8Box3:hover .sec8Box3-3{
+    opacity: 1;
+}
+
+
+.sec9body{
+    text-align: center;
+}
+
+
+#img1{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img1:hover{
+   
+    filter: grayscale(0);
+
+}
+
+
+
+#img2{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img2:hover{
+   
+    filter: grayscale(0);
+
+}
+
+
+#img3{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img3:hover{
+   
+    filter: grayscale(0);
+
+}
+
+
+#img4{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img4:hover{
+   
+    filter: grayscale(0);
+
+}
+
+#img4{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img4:hover{
+   
+    filter: grayscale(0);
+
+}
+#img5{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img5:hover{
+   
+    filter: grayscale(0);
+
+}
+#img6{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img6:hover{
+   
+    filter: grayscale(0);
+
+}
+#img7{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img7:hover{
+   
+    filter: grayscale(0);
+
+}
+
+
+#img8{
+    width: 50%;
+    filter: grayscale(100%);
+
+}
+
+#img8:hover{
+   
+    filter: grayscale(0);
+
+}
+
+#para1 a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+   
+
+
+    
+
+    .sec1{
+        text-align: left;
+    }
+
+
+    .sec1 h1{
+       margin-top: 80px;
+
+       line-height: 1.5;
+       font-size: 45px;
+       letter-spacing:4;
+       font-family: DM Serif Display;
+       
+    }
+
+
+    .sec1 p{
+        font-size: 25px;
+        font-family:serif ;
+        color:rgb(167, 166, 166)
+    }
+
+
+
+
+
+    
+    
+
+
+}
